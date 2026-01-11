@@ -2,6 +2,8 @@
 
 A high-performance "Scrollytelling" Portfolio Website built with React, Vite, Tailwind CSS, and GSAP.
 
+Check it out at https://portfolio-website-two-chi-83.vercel.app/ 
+
 ## 🚀 Stack
 
 - **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
