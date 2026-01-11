@@ -1,16 +1,52 @@
-# React + Vite
+# Muhammad Ahmad - Scrollytelling Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance "Scrollytelling" Portfolio Website built with React, Vite, Tailwind CSS, and GSAP.
 
-Currently, two official plugins are available:
+## 🚀 Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animation**: [GSAP](https://greensock.com/) (ScrollTrigger)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-## React Compiler
+## 🛠️ Installation & Run
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/MuhammadAhmadF2005/portfolio_website.git
+    cd portfolio_website
+    ```
 
-## Expanding the ESLint configuration
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for Production**:
+    ```bash
+    npm run build
+    ```
+
+## 📸 Assets
+
+The animation frames are located in `public/sliding_animation/`. Ensure that `ezgif-frame-001.jpg` through `ezgif-frame-240.jpg` are present.
+
+## 🚀 Vercel Deployment
+
+1.  Push this code to your GitHub repository.
+2.  Go to [Vercel](https://vercel.com/) and create a new project.
+3.  Import your GitHub repository.
+4.  Vercel will detect Vite and automatically configure the build settings:
+    - **Build Command**: `vite build`
+    - **Output Directory**: `dist`
+    - **Install Command**: `npm install`
+5.  Click **Deploy**.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
